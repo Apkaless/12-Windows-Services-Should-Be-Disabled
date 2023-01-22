@@ -1,0 +1,25 @@
+service name > BcastDVR
+
+service name > Certificate Propagation Service
+
+service name > Connected User Experiences and Telemetry
+
+service name > Downloaded Maps Manager
+
+service name > Print Spooler
+
+service name > Security Center
+
+service name > Windows Mobile Hotspot Service
+
+service name > Windows Biometric Service
+
+service name > Windows Update Service
+
+service name > Windows Error Reporting
+
+service name > Windows Insider Service
+
+now open the registry editor and copy/paste this path Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\
+
+the search for a service called OneSyncSvc_6a2c3 then click on it and find the 'Start' 32-DWORD and double click on it then change the value to 4
